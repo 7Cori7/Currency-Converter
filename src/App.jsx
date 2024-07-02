@@ -6,7 +6,7 @@ function App() {
 
     <div className="cc-body">
 
-      <h2 className="cc-title">Currency Converter</h2>
+      <h2 className="cc-title">Covertidor de Moneda</h2>
 
       <Form />
 

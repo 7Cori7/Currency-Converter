@@ -77,7 +77,7 @@ export default function Form(){
         <div className="form-group">
 
             <div className="form-section">
-                <label className="form-label">Enter Amount</label>
+                <label className="form-label">Ingrese Cantidad</label>
                 <input type="number" className="form-input" step="0.01" required min="1"
                 value={amount} onChange={e => setAmount(e.target.value)} />
             </div>
@@ -85,7 +85,7 @@ export default function Form(){
             <div className="currency-group">
 
                 <div className="form-section">
-                    <label className="form-label">From</label>
+                    <label className="form-label">De</label>
                     <CurrencySelect
                     selectedCurrency = {fromCurrency}
                     handleCurrency = {e => setFromCurrency(e.target.value)}
@@ -102,7 +102,7 @@ export default function Form(){
                 </div>
 
                 <div className="form-section">
-                    <label className="form-label">To</label>
+                    <label className="form-label">A</label>
                     <CurrencySelect
                     selectedCurrency = {toCurrency}
                     handleCurrency = {e => setToCurrency(e.target.value)}
@@ -113,7 +113,7 @@ export default function Form(){
 
         </div>
 
-        <button type="submit" className="submit-btn">Convert</button>
+        <button type="submit" className="submit-btn">Convertir</button>
 
         {
             loading

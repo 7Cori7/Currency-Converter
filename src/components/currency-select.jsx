@@ -26,7 +26,8 @@ export default function CurrencySelect({selectedCurrency, handleCurrency}){
 
     return <div className="currency-select">
 
-        <img src={`https://flagsapi.com/${countryCode}/flat/64.png`} alt="Flag" />
+        {/* <img src={`https://flagsapi.com/${countryCode}/flat/64.png`} alt="Flag" /> <-- Esta API no tiene la bandera de EU*/}
+        <img src={`https://flagcdn.com/${countryCode.toLowerCase()}.svg`} alt="Flag" width="30"/>
 
         <select className="currency-dropdown" onChange={handleCurrency}>
 

@@ -58,6 +58,14 @@ export default function Form(){
 
     };
 
+    // When pressing Enter on keyboard
+    function handleKeyDown(e){
+        
+        if (e.key === 'Enter' || e.code === 'Enter'){
+            handleFormSubmit();
+        };
+    };
+
     // Submit form
     function handleFormSubmit(e){
         e.preventDefault();
@@ -79,7 +87,7 @@ export default function Form(){
             <div className="form-section">
                 <label className="form-label">Ingrese Cantidad</label>
                 <input type="number" className="form-input" step="0.01" required min="1"
-                value={amount} onChange={e => setAmount(e.target.value)} />
+                value={amount} onChange={e => setAmount(e.target.value)} onKeyDown={handleKeyDown} />
             </div>
 
             <div className="currency-group">

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 640 480" style="enable-background:new 0 0 640 480;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="183.605" y1="457.2708" x2="434.1362" y2="23.3381">
+		<stop  offset="0" style="stop-color:#0075F8"/>
+		<stop  offset="0.9944" style="stop-color:#F02272"/>
+	</linearGradient>
+	<path class="st0" d="M439.48,443.02H178.27c-39.82,0-72.11-32.28-72.11-72.11V109.7c0-39.82,32.28-72.11,72.11-72.11h261.21
+		c39.82,0,72.11,32.28,72.11,72.11v261.21C511.58,410.73,479.3,443.02,439.48,443.02z"/>
+</g>
+<g>
+	<g>
+		<polygon class="st1" points="221.45,181.56 269.18,145.23 247.33,116.53 161.91,181.56 161.9,181.56 161.9,217.63 455.84,217.63 
+			455.84,181.56 		"/>
+	</g>
+	<g>
+		<polygon class="st1" points="396.29,299.05 348.56,335.38 370.41,364.08 455.83,299.05 455.84,299.05 455.84,262.98 161.9,262.98 
+			161.9,299.05 		"/>
+	</g>
+</g>
+</svg>
